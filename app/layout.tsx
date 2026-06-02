@@ -3,6 +3,7 @@ import { Hanken_Grotesk } from 'next/font/google'
 import './globals.css'
 import { Providers } from './providers'
 import CookieBanner from '@/components/ui/CookieBanner'
+import ScrollToTop from '@/components/ui/ScrollToTop'
 
 const hanken = Hanken_Grotesk({
   subsets: ['latin'],
@@ -12,6 +13,10 @@ const hanken = Hanken_Grotesk({
 })
 
 export const metadata: Metadata = {
+  icons: [
+    { rel: 'icon', url: '/logo2_b.png', media: '(prefers-color-scheme: light)' },
+    { rel: 'icon', url: '/logo2_w.png', media: '(prefers-color-scheme: dark)' },
+  ],
   title: 'MKGENIA · Automatización con IA para empresas',
   description:
     'Construimos sistemas de IA que captan leads, responden clientes y cierran ventas. Sin que tu equipo intervenga.',
@@ -43,6 +48,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Providers>
           {children}
           <CookieBanner />
+          <ScrollToTop />
         </Providers>
       </body>
     </html>

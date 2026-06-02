@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import { useTheme } from 'next-themes'
 import { motion, AnimatePresence } from 'framer-motion'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -17,6 +18,8 @@ const navLinks = [
 export default function NavbarGlass() {
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
+  const { resolvedTheme } = useTheme()
+  const logoSrc = resolvedTheme === 'dark' ? '/logo_w.png' : '/logo_b.png'
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 40)
@@ -39,11 +42,11 @@ export default function NavbarGlass() {
           {/* Logo */}
           <Link href="/" className="flex items-center group">
             <Image
-              src="/logo.png"
+              src={logoSrc}
               alt="MKGENIA"
               width={200}
               height={56}
-              className="h-7 w-auto object-contain"
+              className="h-6 w-auto object-contain"
               priority
             />
           </Link>

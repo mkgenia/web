@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
+import { useTheme } from 'next-themes'
 import { LinkedinLogo, WhatsappLogo, EnvelopeSimple } from '@phosphor-icons/react'
 
 const year = new Date().getFullYear()
@@ -18,6 +19,9 @@ const cols = [
 ]
 
 export default function Footer() {
+  const { resolvedTheme } = useTheme()
+  const logoSrc = resolvedTheme === 'dark' ? '/logo_w.png' : '/logo_b.png'
+
   return (
     <footer className="relative z-10 border-t border-slate-200 dark:border-white/[0.06] bg-slate-50 dark:bg-black">
       <div className="max-w-container mx-auto px-6 py-16">
@@ -26,11 +30,11 @@ export default function Footer() {
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="mb-4">
               <Image
-                src="/logo.png"
+                src={logoSrc}
                 alt="MKGENIA"
                 width={120}
                 height={34}
-                className="h-7 w-auto object-contain"
+                className="h-6 w-auto object-contain"
               />
             </div>
             <p className="text-sm text-slate-500 dark:text-slate-600 leading-relaxed max-w-[180px]">

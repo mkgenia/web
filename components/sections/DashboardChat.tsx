@@ -5,12 +5,12 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Robot } from '@phosphor-icons/react'
 
 const conversation = [
-  { role: 'user', name: 'Ana García', text: 'Buenas, ¿podéis automatizar nuestros seguimientos de clientes?' },
-  { role: 'ai', text: 'Hola Ana. Sí, es exactamente lo que hacemos. ¿Cuántos clientes gestionáis al mes actualmente?' },
-  { role: 'user', name: 'Ana García', text: 'Unos 400 mensuales, todo manual en este momento.' },
-  { role: 'ai', text: 'Con 400 clientes mensuales, podemos reducir el tiempo operativo un 74% en las primeras 6 semanas. ¿Cuándo tienes 20 minutos para una llamada de diagnóstico?' },
-  { role: 'user', name: 'Ana García', text: 'El jueves a las 11h me viene bien.' },
-  { role: 'ai', text: 'Perfecto. He agendado la llamada para el jueves a las 11:00. Te envío la invitación al calendario ahora.' },
+  { role: 'user', name: 'Carlos R.', text: 'Hola, vi el piso de 3 habitaciones en Idealista, ¿sigue disponible?' },
+  { role: 'ai', text: 'Hola Carlos, sí está disponible. Son 95m², planta 4ª con ascensor, zona Eixample. Precio 285.000€. ¿Te gustaría ver fotos completas o prefieres que te cuente más detalles?' },
+  { role: 'user', name: 'Carlos R.', text: 'Me interesa. ¿Podría ver el piso esta semana?' },
+  { role: 'ai', text: 'Claro. Tengo disponibilidad el miércoles a las 17h o el viernes a las 11h. ¿Cuál te viene mejor?' },
+  { role: 'user', name: 'Carlos R.', text: 'El viernes a las 11h perfecto.' },
+  { role: 'ai', text: 'Visita confirmada para el viernes a las 11:00. Te envío la dirección exacta y los datos del agente por WhatsApp ahora mismo. ¡Hasta el viernes!' },
 ]
 
 const DashboardChat = React.memo(function DashboardChat() {

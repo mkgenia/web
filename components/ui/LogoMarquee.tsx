@@ -3,14 +3,16 @@
 import { motion } from 'framer-motion'
 
 const companies = [
-  { name: 'Salesforce', abbr: 'SF' },
+  { name: 'Idealista', abbr: 'ID' },
+  { name: 'Fotocasa', abbr: 'FC' },
+  { name: 'Habitaclia', abbr: 'HB' },
+  { name: 'Pisos.com', abbr: 'PC' },
+  { name: 'WhatsApp', abbr: 'WA' },
+  { name: 'Witei', abbr: 'WT' },
   { name: 'HubSpot', abbr: 'HS' },
   { name: 'Zapier', abbr: 'ZAP' },
-  { name: 'Pipedrive', abbr: 'PD' },
   { name: 'Make', abbr: 'MK' },
-  { name: 'Notion', abbr: 'NO' },
-  { name: 'WhatsApp', abbr: 'WA' },
-  { name: 'OpenAI', abbr: 'AI' },
+  { name: 'Inmovilla', abbr: 'IV' },
 ]
 
 // Duplicate to make seamless loop

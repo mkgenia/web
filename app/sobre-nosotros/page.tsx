@@ -31,9 +31,19 @@ export const metadata: Metadata = {
   },
 }
 
+const breadcrumb = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Inicio', item: 'https://mkgenia.com' },
+    { '@type': 'ListItem', position: 2, name: 'Sobre Nosotros', item: 'https://mkgenia.com/sobre-nosotros' },
+  ],
+}
+
 export default function SobreNosotrosPage() {
   return (
     <main className="relative overflow-x-hidden bg-slate-50 dark:bg-[#09090b] transition-colors duration-300">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
       <NavbarGlass />
       <NosotrosHero />
       <NosotrosMision />

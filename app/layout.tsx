@@ -80,15 +80,21 @@ export const metadata: Metadata = {
   category: 'technology',
 }
 
-const jsonLd = {
+const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'ProfessionalService',
+  '@id': 'https://mkgenia.com/#organization',
   name: 'MKGENIA',
   url: 'https://mkgenia.com',
-  logo: 'https://mkgenia.com/logo_w.png',
+  logo: {
+    '@type': 'ImageObject',
+    url: 'https://mkgenia.com/logo_w.png',
+    width: 200,
+    height: 56,
+  },
   description:
     'Automatización con inteligencia artificial para agencias inmobiliarias en España. Captación automática de leads desde Idealista, Fotocasa y Habitaclia, bot WhatsApp 24/7, cualificación automática y seguimiento de compradores.',
-  email: 'hola@mkgenia.com',
+  email: 'info.mkgenia@gmail.com',
   areaServed: { '@type': 'Country', name: 'España' },
   serviceType: [
     'Automatización inmobiliaria con IA',
@@ -108,10 +114,23 @@ const jsonLd = {
   },
 }
 
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  '@id': 'https://mkgenia.com/#website',
+  name: 'MKGENIA',
+  url: 'https://mkgenia.com',
+  publisher: { '@id': 'https://mkgenia.com/#organization' },
+  inLanguage: 'es-ES',
+}
+
+const jsonLd = [organizationSchema, websiteSchema]
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es" suppressHydrationWarning className="scroll-smooth">
       <head>
+        <meta name="theme-color" content="#3B3FFF" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

@@ -10,11 +10,21 @@ const year = new Date().getFullYear()
 const cols = [
   {
     title: 'Producto',
-    links: [{ label: 'Soluciones', href: '#soluciones' }, { label: 'Proceso', href: '#proceso' }, { label: 'Resultados', href: '#beneficios' }, { label: 'Blog', href: '#' }],
+    links: [
+      { label: 'La Plataforma', href: '/plataforma' },
+      { label: 'Soluciones', href: '/#soluciones' },
+      { label: 'Proceso', href: '/#proceso' },
+      { label: 'Precios', href: '/#precios' },
+    ],
   },
   {
     title: 'Empresa',
-    links: [{ label: 'FAQ', href: '#faq' }, { label: 'Casos de uso', href: '#' }, { label: 'Sobre nosotros', href: '#' }],
+    links: [
+      { label: 'Casos de éxito', href: '/casos-de-exito' },
+      { label: 'Sobre nosotros', href: '/sobre-nosotros' },
+      { label: 'FAQ', href: '/#faq' },
+      { label: 'Contacto', href: '/contacto' },
+    ],
   },
 ]
 
@@ -31,7 +41,7 @@ export default function Footer() {
             <div className="mb-4">
               <Image
                 src={logoSrc}
-                alt="MKGENIA"
+                alt="MKGENIA — Automatización IA para inmobiliarias"
                 width={120}
                 height={34}
                 className="h-6 w-auto object-contain"

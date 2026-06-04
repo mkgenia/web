@@ -43,7 +43,7 @@ export default function NavbarGlass() {
           <Link href="/" className="flex items-center group">
             <Image
               src={logoSrc}
-              alt="MKGENIA"
+              alt="MKGENIA — Automatización IA para inmobiliarias"
               width={200}
               height={56}
               className="h-6 w-auto object-contain"

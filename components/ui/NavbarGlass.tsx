@@ -19,7 +19,11 @@ export default function NavbarGlass() {
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const { resolvedTheme } = useTheme()
-  const logoSrc = resolvedTheme === 'dark' ? '/logo_w.png' : '/logo_b.png'
+  const [mounted, setMounted] = useState(false)
+  useEffect(() => setMounted(true), [])
+  const logoSrc = mounted
+    ? resolvedTheme === 'dark' ? '/logo_w.png' : '/logo_b.png'
+    : '/logo_b.png'
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 40)

@@ -1,5 +1,6 @@
 'use client'
 
+import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { useTheme } from 'next-themes'
@@ -30,7 +31,11 @@ const cols = [
 
 export default function Footer() {
   const { resolvedTheme } = useTheme()
-  const logoSrc = resolvedTheme === 'dark' ? '/logo_w.png' : '/logo_b.png'
+  const [mounted, setMounted] = useState(false)
+  useEffect(() => setMounted(true), [])
+  const logoSrc = mounted
+    ? resolvedTheme === 'dark' ? '/logo_w.png' : '/logo_b.png'
+    : '/logo_b.png'
 
   return (
     <footer className="relative z-10 border-t border-slate-200 dark:border-white/[0.06] bg-slate-50 dark:bg-black">

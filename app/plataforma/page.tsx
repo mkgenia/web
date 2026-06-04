@@ -8,26 +8,31 @@ import PlataformaIntegraciones from '@/components/pages/plataforma/PlataformaInt
 import PlataformaCTA from '@/components/pages/plataforma/PlataformaCTA'
 
 export const metadata: Metadata = {
-  title: 'La Plataforma · MKGENIA — Automatización IA para Inmobiliarias',
+  title: 'La Plataforma · Cómo funciona el sistema IA para inmobiliarias',
   description:
-    'Un sistema de IA diseñado para inmobiliarias que capta leads, los cualifica automáticamente, hace seguimiento por WhatsApp y mantiene tu CRM al día — sin que tu equipo intervenga.',
+    'De la consulta en Idealista a la visita agendada, sin tocar nada. Conoce cómo el sistema de MKGENIA capta leads, los cualifica automáticamente, hace seguimiento por WhatsApp y mantiene tu CRM al día.',
   keywords: [
-    'plataforma IA inmobiliaria',
-    'automatización inmobiliaria inteligencia artificial',
-    'sistema automatización agencia inmobiliaria',
-    'agente IA leads inmobiliaria',
-    'CRM automatizado inmobiliaria',
-    'seguimiento automático clientes inmobiliaria',
-    'whatsapp automatico inmobiliaria',
+    'plataforma automatización inmobiliaria IA',
+    'cómo funciona bot inmobiliaria',
+    'sistema captación leads inmobiliaria automático',
+    'agente IA cualificación compradores inmobiliaria',
+    'CRM inmobiliario automatizado',
+    'seguimiento WhatsApp automático compradores',
+    'integración Idealista Fotocasa CRM',
+    'software inmobiliaria inteligencia artificial',
   ],
+  alternates: {
+    canonical: 'https://mkgenia.es/plataforma',
+  },
   openGraph: {
-    title: 'La Plataforma · MKGENIA — Automatización IA para Inmobiliarias',
+    title: 'La Plataforma MKGENIA — De la consulta a la visita sin tocar nada',
     description:
-      'Capta, cualifica y cierra más operaciones sin aumentar tu equipo. El sistema de IA diseñado para agencias inmobiliarias.',
+      'Capta leads de portales, cualifícalos con IA, haz seguimiento automático por WhatsApp y agenda visitas solas. Sin aumentar tu equipo.',
     url: 'https://mkgenia.es/plataforma',
     siteName: 'MKGENIA',
     locale: 'es_ES',
     type: 'website',
+    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Plataforma MKGENIA para inmobiliarias' }],
   },
 }
 

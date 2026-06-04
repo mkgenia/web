@@ -7,22 +7,27 @@ import NosotrosValores from '@/components/pages/sobre-nosotros/NosotrosValores'
 import NosotrosCTA from '@/components/pages/sobre-nosotros/NosotrosCTA'
 
 export const metadata: Metadata = {
-  title: 'Sobre Nosotros · MKGENIA — Automatización IA para Inmobiliarias',
+  title: 'Sobre Nosotros · MKGENIA — Especialistas en IA para el sector inmobiliario',
   description:
-    'Somos un equipo especializado en automatización con inteligencia artificial para el sector inmobiliario. Conoce quiénes somos, por qué lo hacemos y cómo trabajamos.',
+    'No somos una agencia de marketing que pivotó a IA. Somos un equipo especializado desde el primer día en automatizar el ciclo de venta inmobiliario con inteligencia artificial.',
   keywords: [
     'mkgenia quienes somos',
-    'agencia automatización IA España',
-    'equipo mkgenia inmobiliarias',
-    'sobre mkgenia automatización',
+    'especialistas automatización IA inmobiliaria España',
+    'empresa IA sector inmobiliario',
+    'equipo mkgenia',
+    'automatización ciclo venta inmobiliario',
   ],
+  alternates: {
+    canonical: 'https://mkgenia.es/sobre-nosotros',
+  },
   openGraph: {
-    title: 'Sobre Nosotros · MKGENIA',
-    description: 'El equipo detrás del sistema de IA para inmobiliarias. Conoce quiénes somos y por qué nos especializamos en el sector.',
+    title: 'Sobre MKGENIA — Especialistas en IA para inmobiliarias',
+    description: 'El equipo especializado desde el primer día en automatizar el ciclo de venta inmobiliario. Sin generalismo, sin atajos.',
     url: 'https://mkgenia.es/sobre-nosotros',
     siteName: 'MKGENIA',
     locale: 'es_ES',
     type: 'website',
+    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Sobre MKGENIA — IA para inmobiliarias' }],
   },
 }
 

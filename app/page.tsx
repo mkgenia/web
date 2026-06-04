@@ -1,4 +1,24 @@
+import type { Metadata } from 'next'
 import NavbarGlass from '@/components/ui/NavbarGlass'
+
+export const metadata: Metadata = {
+  title: 'MKGENIA · Automatización IA para Agencias Inmobiliarias',
+  description:
+    'Capta leads de Idealista, Fotocasa y Habitaclia automáticamente, responde compradores 24/7 por WhatsApp con IA y cierra más operaciones sin ampliar tu equipo. Implementación en 3 semanas.',
+  alternates: {
+    canonical: 'https://mkgenia.es',
+  },
+  openGraph: {
+    title: 'MKGENIA · Capta más pisos y cierra más ventas con IA',
+    description:
+      'Bot WhatsApp inmobiliario 24/7, captación automática desde portales y CRM inteligente. +47 agencias inmobiliarias ya automatizan con MKGENIA.',
+    url: 'https://mkgenia.es',
+    siteName: 'MKGENIA',
+    locale: 'es_ES',
+    type: 'website',
+    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'MKGENIA — Automatización IA para Inmobiliarias' }],
+  },
+}
 import Hero from '@/components/sections/Hero'
 import StatsBar from '@/components/sections/StatsBar'
 import ProblemSection from '@/components/sections/ProblemSection'

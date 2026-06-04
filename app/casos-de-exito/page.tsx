@@ -7,22 +7,28 @@ import CasosTestimonials from '@/components/pages/casos-de-exito/CasosTestimonia
 import CasosCTA from '@/components/pages/casos-de-exito/CasosCTA'
 
 export const metadata: Metadata = {
-  title: 'Casos de Éxito · MKGENIA — Inmobiliarias que ya automatizan con IA',
+  title: 'Casos de Éxito · Inmobiliarias que ya automatizan con IA',
   description:
-    'Descubre cómo agencias inmobiliarias en España han multiplicado sus leads cualificados, reducido el tiempo operativo y cerrado más operaciones con el sistema de IA de MKGENIA.',
+    'Agencias inmobiliarias reales en España que han multiplicado sus captaciones, reducido el tiempo operativo y cerrado más operaciones con el sistema IA de MKGENIA. Resultados medibles desde el primer mes.',
   keywords: [
-    'casos de éxito automatización inmobiliaria',
-    'resultados IA agencia inmobiliaria',
-    'automatización leads inmobiliaria resultados',
-    'inmobiliaria inteligencia artificial caso real',
+    'casos éxito automatización agencia inmobiliaria',
+    'resultados IA inmobiliaria España',
+    'agencia inmobiliaria automatización leads resultados',
+    'inmobiliaria inteligencia artificial caso real España',
+    'aumentar captaciones inmobiliaria IA',
+    'cerrar más operaciones inmobiliaria automatización',
   ],
+  alternates: {
+    canonical: 'https://mkgenia.es/casos-de-exito',
+  },
   openGraph: {
-    title: 'Casos de Éxito · MKGENIA',
-    description: 'Inmobiliarias reales. Resultados reales. Ve cómo el sistema de IA ha transformado su operativa.',
+    title: 'Casos de Éxito MKGENIA — Inmobiliarias reales, resultados reales',
+    description: 'Descubre cómo agencias inmobiliarias en España han multiplicado captaciones y operaciones con el sistema IA de MKGENIA.',
     url: 'https://mkgenia.es/casos-de-exito',
     siteName: 'MKGENIA',
     locale: 'es_ES',
     type: 'website',
+    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Casos de éxito MKGENIA — Inmobiliarias con IA' }],
   },
 }
 

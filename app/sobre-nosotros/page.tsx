@@ -18,12 +18,12 @@ export const metadata: Metadata = {
     'automatización ciclo venta inmobiliario',
   ],
   alternates: {
-    canonical: 'https://mkgenia.es/sobre-nosotros',
+    canonical: 'https://mkgenia.com/sobre-nosotros',
   },
   openGraph: {
     title: 'Sobre MKGENIA — Especialistas en IA para inmobiliarias',
     description: 'El equipo especializado desde el primer día en automatizar el ciclo de venta inmobiliario. Sin generalismo, sin atajos.',
-    url: 'https://mkgenia.es/sobre-nosotros',
+    url: 'https://mkgenia.com/sobre-nosotros',
     siteName: 'MKGENIA',
     locale: 'es_ES',
     type: 'website',

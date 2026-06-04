@@ -22,11 +22,11 @@ export default function PoliticaPrivacidad() {
               <h2 className="text-lg font-semibold text-slate-900 dark:text-white mb-3">1. Responsable del tratamiento</h2>
               <p>
                 <strong>MKGENIA</strong> (en adelante, &quot;nosotros&quot;) es la entidad responsable del tratamiento de
-                los datos personales recogidos a través del sitio web <strong>mkgenia.es</strong>.
+                los datos personales recogidos a través del sitio web <strong>mkgenia.com</strong>.
               </p>
               <ul className="mt-3 space-y-1 list-none pl-0">
-                <li><span className="font-medium">Email de contacto:</span> hola@mkgenia.es</li>
-                <li><span className="font-medium">Web:</span> https://mkgenia.es</li>
+                <li><span className="font-medium">Email de contacto:</span> hola@mkgenia.com</li>
+                <li><span className="font-medium">Web:</span> https://mkgenia.com</li>
               </ul>
             </section>
 
@@ -86,7 +86,7 @@ export default function PoliticaPrivacidad() {
               </ul>
               <p className="mt-3">
                 Para ejercer cualquiera de estos derechos, escríbenos a{' '}
-                <a href="mailto:hola@mkgenia.es" className="text-accent hover:underline">hola@mkgenia.es</a>.
+                <a href="mailto:hola@mkgenia.com" className="text-accent hover:underline">hola@mkgenia.com</a>.
               </p>
             </section>
 

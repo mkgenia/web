@@ -14,12 +14,12 @@ export const metadata: Metadata = {
     'demo sistema automatización inmobiliaria',
   ],
   alternates: {
-    canonical: 'https://mkgenia.es/contacto',
+    canonical: 'https://mkgenia.com/contacto',
   },
   openGraph: {
     title: 'Reserva tu consulta gratuita · MKGENIA',
     description: '30 minutos. Sin compromiso. Analizamos tu agencia y te decimos qué automatizar para ver resultados en 30 días.',
-    url: 'https://mkgenia.es/contacto',
+    url: 'https://mkgenia.com/contacto',
     siteName: 'MKGENIA',
     locale: 'es_ES',
     type: 'website',

@@ -6,13 +6,13 @@ export const metadata: Metadata = {
   description:
     'Capta leads de Idealista, Fotocasa y Habitaclia automáticamente, responde compradores 24/7 por WhatsApp con IA y cierra más operaciones sin ampliar tu equipo. Implementación en 3 semanas.',
   alternates: {
-    canonical: 'https://mkgenia.es',
+    canonical: 'https://mkgenia.com',
   },
   openGraph: {
     title: 'MKGENIA · Capta más pisos y cierra más ventas con IA',
     description:
       'Bot WhatsApp inmobiliario 24/7, captación automática desde portales y CRM inteligente. +47 agencias inmobiliarias ya automatizan con MKGENIA.',
-    url: 'https://mkgenia.es',
+    url: 'https://mkgenia.com',
     siteName: 'MKGENIA',
     locale: 'es_ES',
     type: 'website',

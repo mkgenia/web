@@ -6,7 +6,7 @@ import { ArrowRight, CheckCircle, Warning, Envelope, WhatsappLogo, Clock } from 
 
 const infos = [
   { Icon: Clock, title: 'Respuesta en < 24h', desc: 'Te contactamos el mismo día laborable en la mayoría de casos.' },
-  { Icon: Envelope, title: 'hola@mkgenia.es', desc: 'Para consultas que prefieras por escrito.' },
+  { Icon: Envelope, title: 'info.mkgenia@gmail.com', desc: 'Para consultas que prefieras por escrito.' },
   { Icon: WhatsappLogo, title: 'WhatsApp directo', desc: 'Si prefieres un mensaje rápido antes de la llamada.' },
 ]
 
@@ -145,7 +145,7 @@ export default function ContactoPage() {
 
                   {status === 'error' && (
                     <p className="text-xs text-red-400 flex items-center gap-1.5">
-                      <Warning size={12} weight="fill" /> Algo salió mal. Inténtalo de nuevo o escríbenos a hola@mkgenia.es
+                      <Warning size={12} weight="fill" /> Algo salió mal. Inténtalo de nuevo o escríbenos a info.mkgenia@gmail.com
                     </p>
                   )}
 

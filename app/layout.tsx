@@ -13,7 +13,7 @@ const hanken = Hanken_Grotesk({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://mkgenia.es'),
+  metadataBase: new URL('https://mkgenia.com'),
   icons: [
     { rel: 'icon', url: '/logo2_b.png', media: '(prefers-color-scheme: light)' },
     { rel: 'icon', url: '/logo2_w.png', media: '(prefers-color-scheme: dark)' },
@@ -38,17 +38,17 @@ export const metadata: Metadata = {
     'automatización agencias inmobiliarias',
     'mkgenia',
   ],
-  authors: [{ name: 'MKGENIA', url: 'https://mkgenia.es' }],
+  authors: [{ name: 'MKGENIA', url: 'https://mkgenia.com' }],
   creator: 'MKGENIA',
   publisher: 'MKGENIA',
   alternates: {
-    canonical: 'https://mkgenia.es',
+    canonical: 'https://mkgenia.com',
   },
   openGraph: {
     title: 'MKGENIA · Capta más pisos y cierra más ventas con IA',
     description:
       'Automatización IA para agencias inmobiliarias: captación desde portales, bot WhatsApp 24/7, cualificación automática y seguimiento sin trabajo manual.',
-    url: 'https://mkgenia.es',
+    url: 'https://mkgenia.com',
     siteName: 'MKGENIA',
     locale: 'es_ES',
     type: 'website',
@@ -84,11 +84,11 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'ProfessionalService',
   name: 'MKGENIA',
-  url: 'https://mkgenia.es',
-  logo: 'https://mkgenia.es/logo_w.png',
+  url: 'https://mkgenia.com',
+  logo: 'https://mkgenia.com/logo_w.png',
   description:
     'Automatización con inteligencia artificial para agencias inmobiliarias en España. Captación automática de leads desde Idealista, Fotocasa y Habitaclia, bot WhatsApp 24/7, cualificación automática y seguimiento de compradores.',
-  email: 'hola@mkgenia.es',
+  email: 'hola@mkgenia.com',
   areaServed: { '@type': 'Country', name: 'España' },
   serviceType: [
     'Automatización inmobiliaria con IA',

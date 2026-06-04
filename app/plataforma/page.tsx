@@ -22,13 +22,13 @@ export const metadata: Metadata = {
     'software inmobiliaria inteligencia artificial',
   ],
   alternates: {
-    canonical: 'https://mkgenia.es/plataforma',
+    canonical: 'https://mkgenia.com/plataforma',
   },
   openGraph: {
     title: 'La Plataforma MKGENIA — De la consulta a la visita sin tocar nada',
     description:
       'Capta leads de portales, cualifícalos con IA, haz seguimiento automático por WhatsApp y agenda visitas solas. Sin aumentar tu equipo.',
-    url: 'https://mkgenia.es/plataforma',
+    url: 'https://mkgenia.com/plataforma',
     siteName: 'MKGENIA',
     locale: 'es_ES',
     type: 'website',

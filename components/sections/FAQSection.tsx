@@ -71,10 +71,10 @@ export default function FAQSection() {
               Respondemos en menos de 2 horas en horario laboral.
             </p>
             <a
-              href="mailto:hola@mkgenia.es"
+              href="mailto:info.mkgenia@gmail.com"
               className="inline-flex items-center gap-2 mt-6 text-sm text-accent hover:text-accent/80 transition-colors"
             >
-              hola@mkgenia.es →
+              info.mkgenia@gmail.com →
             </a>
           </motion.div>
 

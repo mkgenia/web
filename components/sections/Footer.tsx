@@ -61,8 +61,8 @@ export default function Footer() {
           <div>
             <h3 className="text-xs font-semibold text-slate-500 dark:text-slate-600 uppercase tracking-[0.15em] mb-5">Contacto</h3>
             <div className="flex flex-col gap-3 mb-8">
-              <a href="mailto:hola@mkgenia.es" className="flex items-center gap-2 text-sm text-slate-500 dark:text-slate-600 hover:text-slate-900 dark:hover:text-white transition-colors">
-                <EnvelopeSimple size={15} weight="light" /> hola@mkgenia.es
+              <a href="mailto:info.mkgenia@gmail.com" className="flex items-center gap-2 text-sm text-slate-500 dark:text-slate-600 hover:text-slate-900 dark:hover:text-white transition-colors">
+                <EnvelopeSimple size={15} weight="light" /> info.mkgenia@gmail.com
               </a>
               <a href="https://wa.me/34600000000" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-slate-500 dark:text-slate-600 hover:text-slate-900 dark:hover:text-white transition-colors">
                 <WhatsappLogo size={15} weight="light" /> WhatsApp

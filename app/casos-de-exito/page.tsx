@@ -19,12 +19,12 @@ export const metadata: Metadata = {
     'cerrar más operaciones inmobiliaria automatización',
   ],
   alternates: {
-    canonical: 'https://mkgenia.es/casos-de-exito',
+    canonical: 'https://mkgenia.com/casos-de-exito',
   },
   openGraph: {
     title: 'Casos de Éxito MKGENIA — Inmobiliarias reales, resultados reales',
     description: 'Descubre cómo agencias inmobiliarias en España han multiplicado captaciones y operaciones con el sistema IA de MKGENIA.',
-    url: 'https://mkgenia.es/casos-de-exito',
+    url: 'https://mkgenia.com/casos-de-exito',
     siteName: 'MKGENIA',
     locale: 'es_ES',
     type: 'website',

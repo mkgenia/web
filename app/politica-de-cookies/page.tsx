@@ -74,7 +74,7 @@ export default function PoliticaCookies() {
               <h2 className="text-lg font-semibold text-slate-900 dark:text-white mb-3">Más información</h2>
               <p>
                 Para cualquier consulta sobre nuestra política de cookies, escríbenos a{' '}
-                <a href="mailto:hola@mkgenia.es" className="text-accent hover:underline">hola@mkgenia.es</a>.
+                <a href="mailto:hola@mkgenia.com" className="text-accent hover:underline">hola@mkgenia.com</a>.
                 También puedes consultar nuestra{' '}
                 <a href="/politica-de-privacidad" className="text-accent hover:underline">Política de Privacidad</a>.
               </p>

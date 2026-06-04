@@ -45,15 +45,15 @@ export default function CTAFinal() {
           className="text-center max-w-2xl mx-auto mb-10"
         >
           <h2 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-slate-900 dark:text-white leading-[0.95] tracking-tight mb-6">
-            Tu competencia ya está
+            Tu competencia ya capta pisos
             <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-accent-soft">
-              automatizando.
+              con IA.
             </span>
           </h2>
           <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
-            Primera consulta sin compromiso. Analizamos tu negocio y te decimos exactamente qué
-            automatizar para obtener resultados en 30 días.
+            Primera consulta sin compromiso. Analizamos tu agencia y te decimos exactamente qué
+            automatizar para tener más captaciones y ventas en los próximos 30 días.
           </p>
         </motion.div>
 

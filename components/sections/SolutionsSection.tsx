@@ -4,14 +4,14 @@ import { motion } from 'framer-motion'
 import { Robot, WhatsappLogo, UsersThree, Database, Plugs, PencilSimpleLine, ChartBar, MetaLogo } from '@phosphor-icons/react'
 
 const solutions = [
-  { Icon: Robot, name: 'Agente IA 24/7', desc: 'Responde leads, cualifica y agenda reuniones en tiempo real, sin intervención humana.', span: 2 },
-  { Icon: WhatsappLogo, name: 'Automatización WhatsApp', desc: 'Conversaciones inteligentes en el canal donde están tus clientes.', span: 1 },
-  { Icon: UsersThree, name: 'Cualificación de Leads', desc: 'Filtra automáticamente quién merece atención inmediata de tu equipo.', span: 1 },
-  { Icon: Database, name: 'CRM Inteligente', desc: 'Tu pipeline actualizado solo, sin que nadie lo toque.', span: 1 },
-  { Icon: Plugs, name: 'Integraciones sin código', desc: 'Conectamos la IA con tus herramientas actuales en días, no meses.', span: 1 },
-  { Icon: PencilSimpleLine, name: 'Contenido generativo', desc: 'Propuestas y emails redactados por IA con tu voz de marca.', span: 1 },
-  { Icon: ChartBar, name: 'Analítica predictiva', desc: 'Anticipa qué clientes están listos para comprar antes de que lo sepan ellos.', span: 1 },
-  { Icon: MetaLogo, name: 'Ecosistema Meta', desc: 'Programa publicaciones y lanza anuncios fácilmente usando plantillas personalizadas con tu propia marca.', span: 1 },
+  { Icon: Robot, name: 'Bot inmobiliario 24/7', desc: 'Responde consultas de compradores y arrendatarios al instante, cualifica su interés y agenda visitas — sin que nadie intervenga.', span: 2 },
+  { Icon: WhatsappLogo, name: 'Bot WhatsApp & Telegram', desc: 'Conversaciones inteligentes sobre pisos en los canales donde ya están tus clientes.', span: 1 },
+  { Icon: UsersThree, name: 'Captación automática de portales', desc: 'Extrae leads de Idealista, Fotocasa, Habitaclia y Pisos.com y los vuelca en tu CRM al momento.', span: 1 },
+  { Icon: Database, name: 'CRM inmobiliario inteligente', desc: 'Propiedades, compradores y operaciones actualizados solos. Sin que nadie los toque.', span: 1 },
+  { Icon: Plugs, name: 'Sincronización de portales', desc: 'Publica y actualiza fichas en todos los portales desde un solo lugar, automáticamente.', span: 1 },
+  { Icon: PencilSimpleLine, name: 'Fichas y dossiers con IA', desc: 'Genera descripciones de propiedades, reportes de valoración y emails de seguimiento con tu voz de marca.', span: 1 },
+  { Icon: ChartBar, name: 'Seguimiento automático de interesados', desc: 'Secuencias de recordatorios y follow-ups para compradores y propietarios sin trabajo manual.', span: 1 },
+  { Icon: MetaLogo, name: 'Captación de propietarios en Meta', desc: 'Lanza campañas para conseguir encargos de venta y alquiler. La IA filtra y cualifica los contactos entrantes.', span: 1 },
 ]
 
 export default function SolutionsSection() {
@@ -29,7 +29,7 @@ export default function SolutionsSection() {
           <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 dark:text-white leading-tight tracking-tight">
             Lo que construimos
             <br />
-            <span className="text-slate-500">para tu empresa</span>
+            <span className="text-slate-500">para tu agencia</span>
           </h2>
         </motion.div>
 

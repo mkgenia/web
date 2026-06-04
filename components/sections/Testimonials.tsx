@@ -5,25 +5,25 @@ import { Quotes } from '@phosphor-icons/react'
 
 const testimonials = [
   {
-    quote: 'Pasamos de responder leads en 6 horas a 2 minutos. Las ventas subieron un 38% ese trimestre sin contratar a nadie.',
-    name: 'María Fernández',
-    role: 'Directora Comercial',
-    company: 'Castellano Industrial',
-    initials: 'MF',
+    quote: 'El bot responde a compradores de Idealista a las 3AM y agenda visitas sólo. Ese mes cerramos un 40% más de operaciones sin ampliar el equipo.',
+    name: 'Carlos Molina',
+    role: 'Director',
+    company: 'Molina Propiedades',
+    initials: 'CM',
   },
   {
-    quote: 'Automatizamos el seguimiento de 400 clientes mensuales. Ahora lo gestiona la IA sola y el equipo se centra en cerrar.',
-    name: 'Javier Pons',
+    quote: 'Teníamos leads de Fotocasa perdidos en el email. Ahora entran solos al CRM, la IA los cualifica y el agente solo recibe los que de verdad quieren comprar.',
+    name: 'Sofía Ramos',
+    role: 'Gerente',
+    company: 'Ramos & Asociados Inmobiliaria',
+    initials: 'SR',
+  },
+  {
+    quote: 'En 3 semanas tenía el sistema funcionando. Recuperamos 15 horas semanales que el equipo gastaba subiendo fichas y haciendo seguimientos manuales.',
+    name: 'Ignacio Vidal',
     role: 'CEO',
-    company: 'Arquitectura Pons',
-    initials: 'JP',
-  },
-  {
-    quote: 'Implementaron el sistema en 3 semanas. El equipo dejó de hacer trabajo repetitivo y recuperamos 12 horas semanales.',
-    name: 'Laura Broto',
-    role: 'COO',
-    company: 'Broto Partners',
-    initials: 'LB',
+    company: 'Vidal Real Estate',
+    initials: 'IV',
   },
 ]
 

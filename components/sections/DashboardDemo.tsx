@@ -21,15 +21,16 @@ const sidebarItems = [
 ]
 
 const leads = [
-  { company: 'Castellano Industrial', contact: 'Roberto M.', status: 'Activo', time: '2 min', value: '€12.400' },
-  { company: 'Broto Partners', contact: 'Silvia B.', status: 'En seguimiento', time: '14 min', value: '€4.800' },
-  { company: 'Clínica Navarro', contact: 'Dr. Navarro', status: 'Cerrado', time: '1h 20m', value: '€8.200' },
-  { company: 'Arquitectura Pons', contact: 'Javier P.', status: 'Activo', time: '5 min', value: '€21.600' },
+  { company: 'C/ Mayor 14, 3ºB · Madrid', contact: 'Ana G. · Compradora', status: 'Activo', time: '2 min', value: '€285.000' },
+  { company: 'Piso en Eixample · Barcelona', contact: 'Carlos M. · Arrendatario', status: 'En seguimiento', time: '18 min', value: '€1.450/mes' },
+  { company: 'Chalet Pozuelo · Madrid', contact: 'Familia López · Compradores', status: 'Visita agendada', time: '35 min', value: '€620.000' },
+  { company: 'Local Calle Serrano · Madrid', contact: 'Pedro R. · Inversor', status: 'Cerrado', time: '1h 10m', value: '€410.000' },
 ]
 
 const statusColors: Record<string, string> = {
   Activo: 'text-green-400 bg-green-400/10 border-green-400/20',
   'En seguimiento': 'text-yellow-400 bg-yellow-400/10 border-yellow-400/20',
+  'Visita agendada': 'text-blue-400 bg-blue-400/10 border-blue-400/20',
   Cerrado: 'text-slate-400 bg-slate-400/10 border-slate-400/20',
 }
 
@@ -70,11 +71,11 @@ export default function DashboardDemo() {
                 <div className="w-3 h-3 rounded-full bg-yellow-500/35" />
                 <div className="w-3 h-3 rounded-full bg-green-500/35" />
               </div>
-              <span className="text-xs text-slate-500 font-medium">MKGENIA · Panel de control</span>
+              <span className="text-xs text-slate-500 font-medium">MKGENIA · Panel inmobiliario</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="inline-flex w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-              <span className="text-[11px] text-slate-500">4 automatizaciones activas</span>
+              <span className="text-[11px] text-slate-500">6 automatizaciones activas</span>
             </div>
           </div>
 
@@ -100,9 +101,9 @@ export default function DashboardDemo() {
             <div className="flex-1 flex flex-col min-w-0">
               {/* Top metrics */}
               <div className="grid grid-cols-3 border-b border-slate-200/50 dark:border-white/[0.06] shrink-0">
-                <MetricCell label="Leads hoy" value="23" sub="+3 vs ayer" icon={<UsersThree size={13} className="text-accent" />} />
-                <MetricCell label="Conversaciones" value="7" sub="activas ahora" icon={<ChatsCircle size={13} className="text-accent-soft" />} border />
-                <MetricCell label="Tiempo respuesta" value="47s" sub="media últimas 24h" icon={<Lightning size={13} className="text-green-400" />} border />
+                <MetricCell label="Interesados hoy" value="18" sub="+5 vs ayer" icon={<UsersThree size={13} className="text-accent" />} />
+                <MetricCell label="Visitas agendadas" value="4" sub="esta semana" icon={<ChatsCircle size={13} className="text-accent-soft" />} border />
+                <MetricCell label="Tiempo respuesta" value="53s" sub="media últimas 24h" icon={<Lightning size={13} className="text-green-400" />} border />
               </div>
 
               {/* Content area */}
@@ -116,7 +117,7 @@ export default function DashboardDemo() {
                 <div className="hidden lg:flex flex-col w-[340px] shrink-0 min-h-0">
                   <div className="px-4 py-3 border-b border-slate-200/50 dark:border-white/[0.06] shrink-0">
                     <span className="text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-widest">
-                      Últimos leads
+                      Últimos interesados
                     </span>
                   </div>
                   <div className="flex-1 overflow-y-auto">
@@ -151,7 +152,7 @@ export default function DashboardDemo() {
               <div className="px-4 py-2 border-t border-slate-200/50 dark:border-white/[0.06] flex items-center gap-4 shrink-0 bg-slate-50 dark:bg-white/[0.01]">
                 <div className="flex items-center gap-1.5">
                   <Circle size={8} className="text-green-400" weight="fill" />
-                  <span className="text-[10px] text-slate-500">4 automatizaciones activas</span>
+                  <span className="text-[10px] text-slate-500">6 automatizaciones activas</span>
                 </div>
                 <div className="flex items-center gap-1.5">
                   <Lightning size={10} className="text-accent" />

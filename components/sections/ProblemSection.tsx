@@ -4,11 +4,11 @@ import { motion } from 'framer-motion'
 import { Clock, Gear, FolderUser, ChatText, ChartLineUp } from '@phosphor-icons/react'
 
 const problems = [
-  { Icon: Clock, title: 'Un lead escribe a las 11PM. Nadie responde.', desc: 'Cada hora sin respuesta es un cliente que evalúa a tu competencia.' },
-  { Icon: Gear, title: 'Tu equipo tarda horas en tareas que duran minutos con IA.', desc: 'El tiempo operativo que no genera valor directo es el mayor coste oculto.' },
-  { Icon: FolderUser, title: 'Seguimiento manual de clientes en Excel.', desc: 'Sin automatización, los leads calientes se enfrían antes de que alguien los contacte.' },
-  { Icon: ChatText, title: 'Atención al cliente reactiva, no proactiva.', desc: 'Responder cuando ya hay un problema es tarde. La IA anticipa y actúa antes.' },
-  { Icon: ChartLineUp, title: 'Procesos que escalan sólo si contratas más personas.', desc: 'El crecimiento lineal tiene un techo. Los sistemas IA escalan sin costes proporcionales.' },
+  { Icon: Clock, title: 'Un comprador pregunta por un piso a las 11PM. Nadie responde.', desc: 'Cada hora sin respuesta es un comprador que ya está hablando con otra agencia.' },
+  { Icon: Gear, title: 'Tu equipo pierde horas publicando en portales manualmente.', desc: 'Subir fichas a Idealista, Fotocasa y Habitaclia a mano es tiempo que no genera negocio.' },
+  { Icon: FolderUser, title: 'Seguimiento de compradores en Excel o en la cabeza.', desc: 'Sin automatización, los interesados se enfrían antes de que alguien los vuelva a contactar.' },
+  { Icon: ChatText, title: 'Captaciones perdidas por no responder antes que la competencia.', desc: 'El propietario que quiere vender llama a varias agencias. El primero en responder se lleva el encargo.' },
+  { Icon: ChartLineUp, title: 'Solo puedes gestionar los pisos que tu equipo puede atender.', desc: 'Sin automatización, el número de operaciones está limitado por el tamaño de tu equipo.' },
 ]
 
 export default function ProblemSection() {
@@ -27,17 +27,17 @@ export default function ProblemSection() {
               El problema
             </p>
             <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 dark:text-white leading-tight tracking-tight mb-7">
-              ¿Cuántas oportunidades
+              ¿Cuántas captaciones
               <br />
-              <span className="text-slate-500">pierdes cada día?</span>
+              <span className="text-slate-500">y ventas pierdes cada día?</span>
             </h2>
             <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-10 max-w-sm">
-              Cada proceso manual es una oportunidad perdida. Los datos lo confirman.
+              El sector inmobiliario es ultra-competitivo. Cada minuto de retraso vale operaciones cerradas.
             </p>
             <div className="p-5 rounded-2xl border border-slate-200 dark:border-white/[0.08] bg-slate-100/50 dark:bg-white/[0.03]">
               <p className="text-4xl font-bold text-slate-900 dark:text-white mb-2">78%</p>
               <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
-                de los leads que no reciben respuesta en menos de 5 minutos nunca vuelven a contactar.
+                de los compradores que no reciben respuesta en menos de 5 minutos contactan con otra agencia.
               </p>
             </div>
           </motion.div>

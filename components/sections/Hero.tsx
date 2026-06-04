@@ -62,7 +62,7 @@ export default function Hero() {
           className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-medium text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-white/[0.12] bg-slate-100 dark:bg-white/[0.06] mb-10 backdrop-blur-sm"
         >
           <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
-          Automatización con IA para empresas
+          IA para agencias y agentes inmobiliarios
         </motion.div>
 
         {/* Headline */}
@@ -74,17 +74,17 @@ export default function Hero() {
           style={{ fontSize: 'clamp(52px, 9vw, 130px)' }}
         >
           <motion.span variants={item} className="block">
-            Tu negocio
+            Capta pisos y
           </motion.span>
           <motion.span
             variants={item}
             className="block text-transparent bg-clip-text pb-[0.2em] -mb-[0.2em]"
             style={{ backgroundImage: 'linear-gradient(110deg, #3B3FFF 0%, #3B3FFF 35%, #5B4FFF 47.5%, #F020F0 75%, #F020F0 100%)' }}
           >
-            trabajando
+            cierra ventas
           </motion.span>
           <motion.span variants={item} className="block">
-            mientras duermes
+            sin intervención
           </motion.span>
         </motion.h1>
 
@@ -96,8 +96,8 @@ export default function Hero() {
           className="text-slate-600 dark:text-slate-400 max-w-[520px] leading-relaxed mb-10"
           style={{ fontSize: 'clamp(15px, 1.8vw, 18px)' }}
         >
-          Sistemas de IA que captan leads, responden clientes y cierran ventas —
-          sin que tu equipo intervenga.
+          Automatizaciones IA para inmobiliarias: captación desde portales, cualificación de compradores,
+          bots 24/7 y seguimiento automático — todo sin que tu equipo mueva un dedo.
         </motion.p>
 
         {/* CTAs */}
@@ -135,7 +135,7 @@ export default function Hero() {
             ))}
           </div>
           <p className="text-sm text-slate-500">
-            <span className="text-slate-800 dark:text-slate-300 font-medium">+47 empresas</span> ya automatizan
+            <span className="text-slate-800 dark:text-slate-300 font-medium">+47 agencias</span> ya automatizan
           </p>
         </motion.div>
 

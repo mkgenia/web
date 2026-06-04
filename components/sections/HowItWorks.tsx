@@ -5,11 +5,11 @@ import { motion, useScroll, useTransform } from 'framer-motion'
 import { MagnifyingGlass, Compass, Wrench, RocketLaunch, TrendUp } from '@phosphor-icons/react'
 
 const steps = [
-  { n: '01', Icon: MagnifyingGlass, verb: 'Auditamos', title: 'Analizamos tus procesos actuales en 48h', desc: 'Identificamos exactamente dónde pierdes tiempo y dinero, con datos concretos de tu operativa real.' },
-  { n: '02', Icon: Compass, verb: 'Diseñamos', title: 'Mapeamos exactamente qué automatizar primero', desc: 'Priorizamos los puntos de mayor impacto para que veas resultados en los primeros 30 días.' },
-  { n: '03', Icon: Wrench, verb: 'Construimos', title: 'Desarrollamos e integramos los sistemas IA', desc: 'Conectamos con tus herramientas actuales. Sin cambiar lo que ya funciona.' },
-  { n: '04', Icon: RocketLaunch, verb: 'Lanzamos', title: 'Activamos con seguimiento en tiempo real', desc: 'El primer día operativo tienes acceso al dashboard completo con cada automatización en directo.' },
-  { n: '05', Icon: TrendUp, verb: 'Escalamos', title: 'Optimizamos con datos reales cada semana', desc: 'Los sistemas mejoran con el tiempo. Revisamos métricas contigo y ajustamos para maximizar resultados.' },
+  { n: '01', Icon: MagnifyingGlass, verb: 'Auditamos', title: 'Analizamos tu agencia y tus portales en 48h', desc: 'Identificamos de dónde vienen tus leads, cuántos pierdes por respuesta lenta y qué procesos internos se pueden automatizar ya.' },
+  { n: '02', Icon: Compass, verb: 'Diseñamos', title: 'Mapeamos qué automatizar primero para mayor impacto', desc: 'Priorizamos bot de atención, captación de portales o seguimiento según lo que más operaciones te haga perder ahora mismo.' },
+  { n: '03', Icon: Wrench, verb: 'Construimos', title: 'Desarrollamos e integramos los sistemas IA', desc: 'Configuramos el bot, conectamos los portales con tu CRM y montamos los flujos de seguimiento. Sin tocar lo que ya te funciona.' },
+  { n: '04', Icon: RocketLaunch, verb: 'Lanzamos', title: 'Activamos con seguimiento en tiempo real', desc: 'Desde el primer día tienes el panel completo: leads entrando, conversaciones del bot y visitas agendadas — todo en directo.' },
+  { n: '05', Icon: TrendUp, verb: 'Escalamos', title: 'Optimizamos con datos reales cada semana', desc: 'Revisamos métricas contigo — tasa de respuesta, visitas generadas, operaciones cerradas — y ajustamos para sacar más de cada lead.' },
 ]
 
 export default function HowItWorks() {

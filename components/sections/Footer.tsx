@@ -38,7 +38,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-sm text-slate-500 dark:text-slate-600 leading-relaxed max-w-[180px]">
-              Automatización con IA para empresas que quieren crecer sin crecer el equipo.
+              Automatización IA para agencias inmobiliarias que quieren captar más y cerrar más sin ampliar el equipo.
             </p>
             <p className="mt-6 text-xs text-slate-700">© {year} MKGENIA.</p>
           </div>

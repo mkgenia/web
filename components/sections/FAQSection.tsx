@@ -5,44 +5,44 @@ import AccordionFAQ, { FAQItem } from '@/components/ui/AccordionFAQ'
 
 const faqs: FAQItem[] = [
   {
-    question: '¿Cuánto tiempo tarda la implementación?',
+    question: '¿De qué portales podéis captar leads automáticamente?',
     answer:
-      'El proceso completo va de 2 a 4 semanas dependiendo de la complejidad de tus procesos e integraciones. Las primeras automatizaciones suelen estar activas en los primeros 10 días.',
+      'Integramos con Idealista, Fotocasa, Habitaclia, Pisos.com y cualquier portal que permita acceso a sus leads. Los contactos entran directamente en tu CRM con toda la información del piso y el comprador, listos para trabajar.',
   },
   {
-    question: '¿Necesito conocimientos técnicos?',
+    question: '¿El bot puede responder preguntas concretas sobre mis pisos?',
     answer:
-      'No. Nosotros nos encargamos de todo el desarrollo, configuración e integración. Tú solo necesitas explicarnos cómo funciona tu negocio. El dashboard que recibirás es tan simple como enviar un email.',
+      'Sí. El bot se alimenta de tu cartera de propiedades y responde preguntas sobre precio, superficie, planta, estado, barrio y disponibilidad de visita. Si el comprador pregunta algo que no sabe, escala al agente sin interrumpir la conversación.',
   },
   {
     question: '¿Funciona con mi CRM actual?',
     answer:
-      'Integramos con los principales CRMs: HubSpot, Salesforce, Pipedrive, Monday, Notion y más de 200 herramientas vía API o Zapier/Make. Si usas algo personalizado, lo analizamos en la consulta inicial.',
+      'Integramos con los principales CRMs inmobiliarios: Witei, Inmovilla, Sooprema, Wolly, HubSpot y más de 200 herramientas vía API o Zapier/Make. Si usas algo personalizado, lo analizamos en la consulta inicial.',
   },
   {
-    question: '¿Qué pasa si la IA comete un error?',
+    question: '¿Cuánto tiempo tarda la implementación?',
     answer:
-      'El sistema tiene umbrales de confianza configurados. Si la IA no está segura de la respuesta correcta, escala automáticamente a una persona de tu equipo. Nunca responde si puede perjudicar la relación con el cliente.',
+      'El proceso completo va de 2 a 4 semanas. El bot respondiendo en WhatsApp suele estar activo en los primeros 10 días. La sincronización de portales y el CRM, en la semana 2-3.',
   },
   {
-    question: '¿Cuánto cuesta?',
+    question: '¿Qué pasa si la IA no sabe responder algo?',
     answer:
-      'Los proyectos empiezan desde 2.400€ para automatizaciones puntuales. Los planes de gestión continua se adaptan al volumen de tu negocio. Te damos un presupuesto exacto en la primera llamada, sin letra pequeña.',
+      'El sistema tiene umbrales de confianza configurados. Si la IA no está segura de la respuesta, escala automáticamente al agente asignado con todo el historial de la conversación. El comprador nunca lo nota.',
   },
   {
-    question: '¿Puedo empezar con una sola automatización?',
+    question: '¿Puedo empezar solo con el bot de WhatsApp?',
     answer:
-      'Sí, y es lo que recomendamos. Empezamos con el proceso que más impacto tiene en tu negocio, medimos resultados reales en 30 días y después decidimos juntos qué escalar.',
+      'Sí, y es lo que recomendamos como primer paso. Empezamos con el canal que más impacto tiene en tu agencia, medimos resultados en 30 días y luego decidimos qué automatizar a continuación.',
   },
   {
-    question: '¿Los datos de mis clientes están seguros?',
+    question: '¿Los datos de mis clientes y propiedades están seguros?',
     answer:
       'Todos los datos se procesan bajo cumplimiento RGPD. Trabajamos con proveedores con certificación SOC 2 y los datos nunca se usan para entrenar modelos de terceros. Firmamos DPA en todos los contratos.',
   },
   {
-    question: '¿Qué diferencia a MKGENIA de otras agencias?',
+    question: '¿Qué diferencia a MKGENIA de otras soluciones para inmobiliarias?',
     answer:
-      'Nos especializamos exclusivamente en automatización con IA, no hacemos webs ni SEO. Todos los sistemas que construimos tienen métricas de resultado concretas desde el día uno. Si no hay resultados en 90 días, revisamos el proyecto sin coste adicional.',
+      'Nos especializamos en automatización IA para el sector inmobiliario, no somos una herramienta genérica. Configuramos cada sistema a medida de tu cartera, tus portales y tu proceso de venta. Si no hay resultados en 90 días, revisamos el proyecto sin coste adicional.',
   },
 ]
 

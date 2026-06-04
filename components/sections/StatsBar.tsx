@@ -1,7 +1,7 @@
 const stats = [
-  { label: 'TIEMPO DE RESPUESTA', value: '< 90s' },
-  { label: 'EMPRESAS ACTIVAS', value: '+47' },
-  { label: 'MEJORA CONVERSIÓN', value: '+47%' },
+  { label: 'RESPUESTA AL LEAD', value: '< 90s' },
+  { label: 'AGENCIAS ACTIVAS', value: '+47' },
+  { label: 'MÁS CAPTACIONES', value: '+3.2×' },
   { label: 'IMPLEMENTACIÓN', value: '< 3 sem.' },
 ]
 

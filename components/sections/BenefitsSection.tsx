@@ -9,7 +9,7 @@ const stats = [
     decimals: 1,
     prefix: '',
     suffix: '×',
-    label: 'más leads cualificados',
+    label: 'más captaciones conseguidas',
     sub: 'en los primeros 3 meses',
     accent: 'from-accent/20 to-accent/0',
     border: 'border-accent/20',
@@ -20,8 +20,8 @@ const stats = [
     decimals: 0,
     prefix: '−',
     suffix: '%',
-    label: 'menos tiempo operativo',
-    sub: 'en tareas repetitivas',
+    label: 'menos tiempo en gestión manual',
+    sub: 'portales, fichas y follow-ups',
     accent: 'from-[#3B3FFF]/20 to-[#3B3FFF]/0',
     border: 'border-[#3B3FFF]/20',
     text: 'text-[#6366FF]',
@@ -31,8 +31,8 @@ const stats = [
     decimals: 0,
     prefix: '< ',
     suffix: 's',
-    label: 'tiempo de respuesta',
-    sub: 'de tu agente IA',
+    label: 'respuesta a compradores',
+    sub: 'día y noche, sin agente',
     accent: 'from-[#5B4FFF]/20 to-[#5B4FFF]/0',
     border: 'border-[#5B4FFF]/20',
     text: 'text-[#8B7FFF]',
@@ -42,7 +42,7 @@ const stats = [
     decimals: 0,
     prefix: '+',
     suffix: '%',
-    label: 'mejora en conversión',
+    label: 'más visitas a operación cerrada',
     sub: 'en los primeros 90 días',
     accent: 'from-[#F020F0]/20 to-[#F020F0]/0',
     border: 'border-[#F020F0]/20',
@@ -109,9 +109,9 @@ export default function BenefitsSection() {
               <span className="w-3 h-3 rounded-full bg-green-400 animate-pulse" />
             </div>
             <div>
-              <h3 className="font-semibold text-slate-900 dark:text-white text-lg mb-1">Disponible 24/7 — sin equipo adicional</h3>
+              <h3 className="font-semibold text-slate-900 dark:text-white text-lg mb-1">Atención a compradores 24/7 — sin agente en guardia</h3>
               <p className="text-sm text-slate-600 dark:text-slate-500">
-                Tu agente IA trabaja fines de semana, festivos y madrugadas. Sin coste de personal.
+                Tu bot inmobiliario responde, cualifica y agenda visitas los fines de semana, festivos y madrugadas. Sin coste de personal.
               </p>
             </div>
           </div>

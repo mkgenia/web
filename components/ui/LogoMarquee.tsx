@@ -20,7 +20,7 @@ const logos = [...companies, ...companies]
 
 export default function LogoMarquee() {
   return (
-    <div className="w-full overflow-hidden mt-16 pb-6 relative">
+    <div className="w-full overflow-hidden mt-8 sm:mt-16 pb-4 sm:pb-6 relative">
       {/* Fade edges */}
       <div className="absolute left-0 top-0 bottom-0 w-20 z-10 bg-gradient-to-r from-slate-50 dark:from-[#09090b] to-transparent pointer-events-none" />
       <div className="absolute right-0 top-0 bottom-0 w-20 z-10 bg-gradient-to-l from-slate-50 dark:from-[#09090b] to-transparent pointer-events-none" />

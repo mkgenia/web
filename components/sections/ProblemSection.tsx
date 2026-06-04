@@ -13,9 +13,9 @@ const problems = [
 
 export default function ProblemSection() {
   return (
-    <section id="problema" className="py-28 lg:py-36 relative z-10">
+    <section id="problema" className="py-14 sm:py-20 lg:py-36 relative z-10">
       <div className="max-w-container mx-auto px-6">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 xl:gap-24 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 xl:gap-24 items-start">
           {/* Left */}
           <motion.div
             initial={{ opacity: 0, y: 32 }}

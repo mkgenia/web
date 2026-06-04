@@ -153,7 +153,7 @@ const item = {
 
 export default function PricingSection() {
   return (
-    <section id="precios" className="py-28 lg:py-36 relative">
+    <section id="precios" className="py-14 sm:py-20 lg:py-36 relative">
       <div className="relative z-10 max-w-container mx-auto px-6">
         {/* Header */}
         <motion.div

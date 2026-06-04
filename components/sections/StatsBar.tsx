@@ -13,7 +13,7 @@ export default function StatsBar() {
           {stats.map((stat, i) => (
             <div
               key={i}
-              className={`py-10 px-8 ${i < stats.length - 1 ? 'border-r border-slate-200/50 dark:border-white/[0.07]' : ''} ${i === 1 ? 'border-b border-r lg:border-b-0 border-slate-200/50 dark:border-white/[0.07]' : ''} ${i === 0 ? 'border-b lg:border-b-0 border-slate-200/50 dark:border-white/[0.07]' : ''}`}
+              className={`py-6 px-5 sm:py-10 sm:px-8 ${i < stats.length - 1 ? 'border-r border-slate-200/50 dark:border-white/[0.07]' : ''} ${i === 1 ? 'border-b border-r lg:border-b-0 border-slate-200/50 dark:border-white/[0.07]' : ''} ${i === 0 ? 'border-b lg:border-b-0 border-slate-200/50 dark:border-white/[0.07]' : ''}`}
             >
               <p className="text-[10px] font-semibold text-slate-500 dark:text-slate-600 tracking-[0.15em] uppercase mb-2.5">
                 {stat.label}

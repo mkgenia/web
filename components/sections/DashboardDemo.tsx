@@ -36,7 +36,7 @@ const statusColors: Record<string, string> = {
 
 export default function DashboardDemo() {
   return (
-    <section id="demo" className="py-24 lg:py-32 relative z-10">
+    <section id="demo" className="py-12 sm:py-20 lg:py-32 relative z-10">
       <div className="max-w-container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 28 }}
@@ -61,7 +61,6 @@ export default function DashboardDemo() {
           viewport={{ once: true, margin: '-60px' }}
           transition={{ duration: 0.8, ease: [0.25, 0.1, 0.25, 1] }}
           className="rounded-2xl border border-slate-200 dark:border-white/[0.10] bg-white dark:bg-[#0D1526] overflow-hidden shadow-[0_40px_120px_rgba(0,0,0,0.1),0_0_0_1px_rgba(0,0,0,0.06),inset_0_1px_0_rgba(255,255,255,0.07)] dark:shadow-[0_40px_120px_rgba(0,0,0,0.5),0_0_0_1px_rgba(255,255,255,0.06),inset_0_1px_0_rgba(255,255,255,0.07)]"
-          style={{ minHeight: 480 }}
         >
           {/* Title bar */}
           <div className="flex items-center justify-between px-4 py-3 border-b border-slate-200/50 dark:border-white/[0.06] bg-slate-50 dark:bg-white/[0.02]">
@@ -75,11 +74,11 @@ export default function DashboardDemo() {
             </div>
             <div className="flex items-center gap-2">
               <span className="inline-flex w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-              <span className="text-[11px] text-slate-500">6 automatizaciones activas</span>
+              <span className="text-[11px] text-slate-500 hidden sm:inline">6 automatizaciones activas</span>
             </div>
           </div>
 
-          <div className="flex h-[520px]">
+          <div className="flex h-[420px] sm:h-[520px]">
             {/* Sidebar */}
             <div className="hidden sm:flex flex-col w-14 border-r border-slate-200/50 dark:border-white/[0.06] py-4 items-center gap-3">
               {sidebarItems.map(({ Icon, label, active }) => (

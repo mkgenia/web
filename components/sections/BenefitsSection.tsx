@@ -52,7 +52,7 @@ const stats = [
 
 export default function BenefitsSection() {
   return (
-    <section id="beneficios" className="py-28 lg:py-36 relative z-10">
+    <section id="beneficios" className="py-14 sm:py-20 lg:py-36 relative z-10">
       <div className="max-w-container mx-auto px-6">
 
         {/* Header */}
@@ -80,13 +80,13 @@ export default function BenefitsSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-40px' }}
               transition={{ duration: 0.6, delay: i * 0.08, ease: [0.25, 0.1, 0.25, 1] }}
-              className={`relative rounded-2xl border ${s.border} bg-slate-100/50 dark:bg-white/[0.025] p-7 overflow-hidden group hover:bg-slate-200/50 dark:hover:bg-white/[0.04] transition-all duration-300`}
+              className={`relative rounded-2xl border ${s.border} bg-slate-100/50 dark:bg-white/[0.025] p-4 sm:p-7 overflow-hidden group hover:bg-slate-200/50 dark:hover:bg-white/[0.04] transition-all duration-300`}
             >
               {/* Gradient glow top */}
               <div className={`absolute top-0 left-0 right-0 h-32 bg-gradient-to-b ${s.accent} pointer-events-none`} />
 
               <div className="relative">
-                <p className={`text-5xl lg:text-6xl font-bold tracking-tight leading-none mb-4 ${s.text}`}>
+                <p className={`text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-none mb-3 sm:mb-4 ${s.text}`}>
                   {s.prefix}<AnimatedCounter to={s.value} decimals={s.decimals} suffix={s.suffix} />
                 </p>
                 <p className="text-sm font-semibold text-slate-900 dark:text-white mb-1">{s.label}</p>
@@ -102,7 +102,7 @@ export default function BenefitsSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-40px' }}
           transition={{ duration: 0.6, delay: 0.32, ease: [0.25, 0.1, 0.25, 1] }}
-          className="rounded-2xl border border-slate-200 dark:border-white/[0.07] bg-white dark:bg-white/[0.025] p-7 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6"
+          className="rounded-2xl border border-slate-200 dark:border-white/[0.07] bg-white dark:bg-white/[0.025] p-4 sm:p-7 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 sm:gap-6"
         >
           <div className="flex items-center gap-5">
             <div className="w-12 h-12 rounded-xl bg-green-400/10 border border-green-400/20 flex items-center justify-center shrink-0">

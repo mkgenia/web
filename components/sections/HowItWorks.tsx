@@ -18,14 +18,14 @@ export default function HowItWorks() {
   const lineScaleY = useTransform(scrollYProgress, [0, 1], [0, 1])
 
   return (
-    <section id="proceso" ref={sectionRef} className="py-28 lg:py-36 relative z-10">
+    <section id="proceso" ref={sectionRef} className="py-14 sm:py-20 lg:py-36 relative z-10">
       <div className="max-w-container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 28 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-80px' }}
           transition={{ duration: 0.7, ease: [0.25, 0.1, 0.25, 1] }}
-          className="text-center max-w-xl mx-auto mb-20"
+          className="text-center max-w-xl mx-auto mb-10 sm:mb-20"
         >
           <p className="text-xs font-semibold text-accent/70 tracking-[0.2em] uppercase mb-5">El proceso</p>
           <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 dark:text-white leading-tight tracking-tight">

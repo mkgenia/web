@@ -48,9 +48,9 @@ const faqs: FAQItem[] = [
 
 export default function FAQSection() {
   return (
-    <section id="faq" className="py-28 lg:py-36 relative z-10">
+    <section id="faq" className="py-14 sm:py-20 lg:py-36 relative z-10">
       <div className="max-w-container mx-auto px-6">
-        <div className="grid grid-cols-1 lg:grid-cols-[40fr_60fr] gap-12 xl:gap-20 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-[40fr_60fr] gap-8 lg:gap-12 xl:gap-20 items-start">
           <motion.div
             initial={{ opacity: 0, y: 28 }}
             whileInView={{ opacity: 1, y: 0 }}

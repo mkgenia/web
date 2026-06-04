@@ -29,7 +29,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="py-28 lg:py-36 relative">
+    <section className="py-14 sm:py-20 lg:py-36 relative">
       <div className="relative z-10 max-w-container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 28 }}

@@ -53,13 +53,13 @@ export default function Hero() {
         />
       </div>
 
-      <div className="relative z-10 max-w-container mx-auto px-6 w-full pt-28 pb-20 flex flex-col items-center text-center">
+      <div className="relative z-10 max-w-container mx-auto px-6 w-full pt-20 pb-12 sm:pt-28 sm:pb-20 flex flex-col items-center text-center">
         {/* Badge */}
         <motion.div
           initial={{ opacity: 0, y: 14 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-medium text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-white/[0.12] bg-slate-100 dark:bg-white/[0.06] mb-10 backdrop-blur-sm"
+          className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-medium text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-white/[0.12] bg-slate-100 dark:bg-white/[0.06] mb-6 sm:mb-10 backdrop-blur-sm"
         >
           <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
           IA para agencias y agentes inmobiliarios
@@ -70,8 +70,8 @@ export default function Hero() {
           variants={container}
           initial="hidden"
           animate="visible"
-          className="font-bold text-slate-900 dark:text-white leading-[0.93] tracking-[-0.03em] mb-8"
-          style={{ fontSize: 'clamp(52px, 9vw, 130px)' }}
+          className="font-bold text-slate-900 dark:text-white leading-[0.93] tracking-[-0.03em] mb-5 sm:mb-8"
+          style={{ fontSize: 'clamp(42px, 9vw, 130px)' }}
         >
           <motion.span variants={item} className="block">
             Capta pisos y
@@ -93,8 +93,8 @@ export default function Hero() {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.38 }}
-          className="text-slate-600 dark:text-slate-400 max-w-[520px] leading-relaxed mb-10"
-          style={{ fontSize: 'clamp(15px, 1.8vw, 18px)' }}
+          className="text-slate-600 dark:text-slate-400 max-w-[520px] leading-relaxed mb-7 sm:mb-10"
+          style={{ fontSize: 'clamp(14px, 1.8vw, 18px)' }}
         >
           Automatizaciones IA para inmobiliarias: captación desde portales, cualificación de compradores,
           bots 24/7 y seguimiento automático — todo sin que tu equipo mueva un dedo.

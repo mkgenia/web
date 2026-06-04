@@ -34,7 +34,7 @@ export default function CTAFinal() {
   }
 
   return (
-    <section id="contacto" className="py-28 lg:py-36 relative z-10">
+    <section id="contacto" className="py-14 sm:py-20 lg:py-36 relative z-10">
 
       <div className="relative z-10 max-w-container mx-auto px-6">
         <motion.div
@@ -42,7 +42,7 @@ export default function CTAFinal() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-80px' }}
           transition={{ duration: 0.7, ease: [0.25, 0.1, 0.25, 1] }}
-          className="text-center max-w-2xl mx-auto mb-10"
+          className="text-center max-w-2xl mx-auto mb-7 sm:mb-10"
         >
           <h2 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-slate-900 dark:text-white leading-[0.95] tracking-tight mb-6">
             Tu competencia ya capta pisos
